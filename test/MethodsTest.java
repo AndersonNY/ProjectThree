@@ -106,7 +106,7 @@ public class MethodsTest {
             //GIVEN
             List<String> countries = Arrays.asList("USA", "Mexico", "South Korea", "Brazil");
             List<String> populations = Arrays.asList("300000000", "60000000", "5200000", "12000000");
-            int randomNum = code.randomGenerator(countries.size() - 1);
+            int randomNum = 1;
 
             String randomCountry = countries.get(randomNum);
 
@@ -158,7 +158,7 @@ public class MethodsTest {
             populations.add("7655555520");
             populations.add("32100000");
 
-            int randomNum = code.randomGenerator(countries.size() - 1);
+            int randomNum = 2;
             String randomCountry = countries.get(randomNum);
 
             //WHEN
