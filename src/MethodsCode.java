@@ -101,7 +101,7 @@ public class MethodsCode {
      * names: {"Alice", "Bob", "Alo"}
      * wrongName: Alo
      * correctName: Ali
-     * 
+     *
      * return {"Alice", "Bob", "Ali"}
      */
     // write your code here
